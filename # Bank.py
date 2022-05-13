@@ -1,6 +1,7 @@
 # Bank
 import colorama
 from colorama import Fore, Back, Style
+import time
 
 colorama.init(autoreset=True)
 bal = 1000
@@ -11,11 +12,6 @@ if bank == "Zain" and pass1 == "Zain12":
     print(Fore.MAGENTA + "Welcome Zain!")
     print("Your balance is", Fore.YELLOW + "$1000")
     print("--------------------------------------------")
-    #    work = input("Would you like to work : ")
-    #     if work == "yes":
-    #         print("-----------------------------------------")
-    #         print("Your new bank balance now is", bal + 100)
-    #         print(Fore.CYAN + "Come back in 30 mins to work again")
 
 
 
